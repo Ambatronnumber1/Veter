@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML5, CSS3">
+    <title>Veterinaria y Tienda de Animalitos - Perros</title>
+    <link rel="stylesheet" href="/static/estilos.css">
+    <style>
+        .articles {
+            width: 80%; 
+            margin: 0 auto; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1 style="font-weight: bold; font-size: 30px;">SITIO DE MASCOTAS</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index">Inicio</a></li>
+            <li><a href="/perros">Perros</a></li>
+            <li><a href="/gatos">Gatos</a></li>
+            <li><a href="/aves">Aves</a></li>
+        </ul>
+    </nav>
+
+    
+    {% block content %}
+ {% endblock %}
+ <footer>
+    <p>© Sitio de Animales.</p>
+</footer>
+
+</body>
+</html>
